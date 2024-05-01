@@ -1,0 +1,17 @@
+.imgNav{
+    background-image: url('../assets/ImgNavBar.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    margin-right: 5px;
+}
+
+
+
