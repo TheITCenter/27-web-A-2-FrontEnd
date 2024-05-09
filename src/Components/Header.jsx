@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Image from 'react-bootstrap/Image';
 import '../Styles/Header.css'
 import logo from '../assets/IconNav.svg'
+import car from "../assets/cart.svg";
 
 
 function Header() {
@@ -21,6 +22,9 @@ function Header() {
               <NavLink to="/" className="btn btn-success">Inicio</NavLink>
               <NavLink to="/login" className="btn btn-success">Login/Registro</NavLink>
               <NavLink to="/contactanos" className="btn btn-success">Contactanos</NavLink>
+              <NavLink to="/carrito" className="btn btn-success">
+                <img className="car" src={car} alt="carrito de compras" />
+              </NavLink>
           </Nav>
         </div>
           
