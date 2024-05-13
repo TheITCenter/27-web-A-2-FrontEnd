@@ -24,14 +24,14 @@ function Header() {
 
 
 
-        <select className="btn btn-success">
+{/*         <select className="btn btn-success">
           <option disabled="true" selected>
             <span className="">
              Géneros
             </span>
-          </option>
+          </option> */}
           <Select />
-            <ul>
+{/*             <ul>
               <li>
                 <NavLink to="/products/gadgets" className="dropdown-link">
                   Gadgets
@@ -62,10 +62,10 @@ function Header() {
                   PC
                 </NavLink>
               </li>
-            </ul>
-
+            </ul> */}
+{/* 
         </select>
-
+ */}
 
 
               <NavLink to="/login" className="btn btn-success">Login/Registro</NavLink>
