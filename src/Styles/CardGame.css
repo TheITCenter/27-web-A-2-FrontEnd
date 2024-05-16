@@ -1,0 +1,12 @@
+.card-img-top{
+    border-radius: 30px;
+    height: 400px;
+}
+
+.radius{
+    --bs-border-radius: 16px;
+}
+
+.btn {
+    --bs-btn-bg:#006b29;
+}
