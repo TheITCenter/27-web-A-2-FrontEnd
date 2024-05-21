@@ -16,6 +16,9 @@ function Header() {
               <Image src={logo} width={25}  />
           </NavLink>
         </div>
+        <div className="Search_bar">
+          <i> <input type="text" name="Searcher" id='Searcher'  placeholder='¿Qué juego quieres buscar...?' /> </i>
+        </div>
         <div id='navBarDiv'>
           <Nav className="me-auto">
               <NavLink to="/" className="btn btn-success">Inicio</NavLink>

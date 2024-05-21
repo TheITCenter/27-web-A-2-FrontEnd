@@ -13,5 +13,21 @@
     margin-right: 5px;
 }
 
+#Searcher{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    color: grey;
+    font-style: italic;
+    width: 36cqmax;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+
+.Search_bar :hover {
+    padding: 0px 10px 0px 10px;
+    width: 100%;
+    transition-duration: 0.5s;
+}
 
 
