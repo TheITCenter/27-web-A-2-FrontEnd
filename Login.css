@@ -1,0 +1,211 @@
+.contenedor{
+  /* background-color: #ffff; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-49%, -45%);
+  height: 400px;
+  /* padding: 1.4rem; */
+  width: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border-radius: 0.9rem;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); */
+}
+
+.formulario{
+    background-color: #8b5cb1;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-55%, -50%);
+    height: 400px;
+    padding: 1.8rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border-radius: 0.9rem; */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.contenedor2{
+  
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-150%, -50%);
+    height: 350px;
+    padding: 5rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border-radius: 0.9rem;
+    
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); */
+}
+
+.titulos{
+    top: 1%;
+    position: absolute;
+    color:#ffffff;
+    font-family: cursive;
+    font-size: 40px;
+    
+}
+
+.titulo2{
+  position: absolute;
+  color:#ffffff;
+  font-family: cursive;
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.fields{
+   
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.input-fields{
+    margin-bottom: .4rem;
+    border-radius: 0.2rem;
+    border-color: #9c3fda;
+    border-style: outset;
+    background-color: #d3a3f3 ;
+}
+
+.boton{
+  padding: 10px 20px;
+  background-color: #6a0a85;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.boton:hover {
+  background-color: #610b79;
+}
+.boton:active {
+  background-color: #610b79;
+} 
+
+.infoExtra{
+  width: 25rem;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  font-size: 14px;
+  color:#faf5fc;
+}
+.help {
+    margin-right: auto; 
+    cursor: pointer; 
+    font-size: 14px;
+    text-decoration: underline;
+  }
+
+  .register {
+    margin-left: auto; 
+    
+    
+  }
+  .text{
+    color:#faf5fc;
+  }
+
+  .formulario2{
+    background-color: #8b5cb1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49%, -49%);
+    height: 400px;
+    padding: 1.4rem;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.9rem;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+.error-message {
+  color: rgb(226, 74, 74);
+  font-size: 12px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.extra-fields{
+  padding: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border-radius: 0.9rem; */
+}
+
+.google{
+  padding: 3px 45px;
+  background-color: #fff;
+  color: rgb(20, 20, 20);
+  border: none;
+  cursor: pointer;
+  margin-bottom: .5rem;
+  background-image: url('./loginImages/browser-chrome.svg');
+  background-repeat:no-repeat;
+  background-size: 45px 30px;
+  background-position: left;
+  border-radius: 0.9rem;
+  
+ 
+}
+.google:hover {
+  background-color: rgb(240, 230, 246);
+}
+
+
+.facebook{
+  padding: 3px 45px;
+  background-color: #3b5998;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: .5rem;
+  background-image: url('./loginImages/facebook.svg');
+  background-repeat:no-repeat;
+  background-size: 45px 30px;
+  background-position: left;
+  border-radius: 0.9rem;
+ 
+}
+.facebook:hover {
+  background-color: #35518c;
+}
+
+
+.apple{
+  padding: 3px 45px;
+  background-color: #bebebeab;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: .5rem;
+  background-image: url('./loginImages/apple.svg');
+  background-repeat:no-repeat;
+  background-size: 45px 30px;
+  background-position: left;
+  border-radius: 0.9rem;
+ 
+}
+.apple:hover {
+  background-color: #9b9b9bd8;
+}
