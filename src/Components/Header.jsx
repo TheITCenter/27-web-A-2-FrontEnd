@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Image from 'react-bootstrap/Image';
 import '../Styles/Header.css'
 import logo from '../assets/IconNav.svg'
+import Searcher from './Searcher';
 
 
 function Header() {
@@ -17,7 +18,7 @@ function Header() {
           </NavLink>
         </div>
         <div className="Search_bar">
-          <i> <input type="text" name="Searcher" id='Searcher'  placeholder='¿Qué juego quieres buscar...?' /> </i>
+          <input type="text" name="Searcher" id='Searcher'  placeholder='¿Qué juego quieres buscar...?' />
         </div>
         <div id='navBarDiv'>
           <Nav className="me-auto">
