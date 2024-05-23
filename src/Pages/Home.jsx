@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import CardGame  from "../Components/CardGame"
 import '../Styles/Home.css'
 
 
 
 function Home(){
-       
+        
         const [productos, setProductos] = useState([])
         useEffect ( () =>{
             fetch('https://two7-web-a-2-backend.onrender.com/games')
