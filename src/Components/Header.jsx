@@ -21,51 +21,7 @@ function Header() {
         <div id='navBarDiv'>
           <Nav className="me-auto">
               <NavLink to="/" className="btn btn-success">Inicio</NavLink>
-
-
-
-{/*         <select className="btn btn-success">
-          <option disabled="true" selected>
-            <span className="">
-             Géneros
-            </span>
-          </option> */}
           <Select />
-{/*             <ul>
-              <li>
-                <NavLink to="/products/gadgets" className="dropdown-link">
-                  Gadgets
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/products/consolas" className="dropdown-link">
-                  Consolas
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/products/mobile" className="dropdown-link">
-                  Mobile
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/products/monitors" className="dropdown-link">
-                  Monitors
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/products/tablets" className="dropdown-link">
-                  Tablets
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/products/pc" className="dropdown-link">
-                  PC
-                </NavLink>
-              </li>
-            </ul> */}
-{/* 
-        </select>
- */}
 
 
               <NavLink to="/login" className="btn btn-success">Login/Registro</NavLink>
