@@ -2,7 +2,6 @@ import Dropdown from 'react-bootstrap/Dropdown';
 
 function Select() {
   return (
-    
     <Dropdown>
       <Dropdown.Toggle variant="success" id="dropdown-basic">
         Géneros

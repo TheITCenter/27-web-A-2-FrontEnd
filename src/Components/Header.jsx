@@ -22,8 +22,6 @@ function Header() {
           <Nav className="me-auto">
               <NavLink to="/" className="btn btn-success">Inicio</NavLink>
           <Select />
-
-
               <NavLink to="/login" className="btn btn-success">Login/Registro</NavLink>
               <NavLink to="/contactanos" className="btn btn-success">Contactanos</NavLink>
               <NavLink to="/carrito" className="btn btn-success">
