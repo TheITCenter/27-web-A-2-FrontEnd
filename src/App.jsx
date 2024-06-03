@@ -2,6 +2,8 @@ import './App.css'
 import { BrowserRouter } from 'react-router-dom'
 import RoutesIndex from './Routes/Routes'
 import Header from './Components/Header'
+import Searcher from './Components/Searcher'
+
 
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <RoutesIndex />
+        <Searcher />
       </BrowserRouter>
       
     </>

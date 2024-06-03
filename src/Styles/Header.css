@@ -13,5 +13,51 @@
     margin-right: 5px;
 }
 
+#Searcher{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    color: grey;
+    font-style: italic;
+    width: 36cqmax;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
 
+.Search_bar :hover {
+    padding: 0px 10px 0px 10px;
+    width: 100%;
+    transition-duration: 1s;
+}
+
+.Search_bar {
+    position: relative;
+    }
+
+    .search-result {
+    background: #71c0eb;
+    border: 1px solid #7718bb;
+    padding: 8px;
+    list-style: none;
+    cursor: pointer;
+    font-style: italic;
+    width: 36cqmax;
+    }
+
+    .search-result:hover {
+    background: purple;
+    width: 36cqmax;
+    }
+
+    ul {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    max-height: 200px; /* Limita la altura de la lista */
+    overflow-y: auto; /* Agrega scroll si hay muchos resultados */
+    border: 1px solid #ccc;
+    background: #fff;
+    z-index: 1000; /* Asegura que la lista esté encima de otros elementos */
+    }  
 
